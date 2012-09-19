@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Star Wars Crawl with HTML5 and CSS3</title>
+	<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+	<link rel="stylesheet" href="css/starwars-crawl.css" />
+</head>
+	<body>
+	<div id="stage">
+		<img src="star_wars_logo.png" alt="Star Wars" />
+
+
+		<p id="far-far-away">
+			A long time ago in a galaxy far,<br/>far away. . . .
+		</p>
+
+			<div id="crawl">
+				<p>Star Wars Twitter Search...</p>
+				<p>Tweets go here!</p>
+			</div>
+	</div>
+
+	<audio src="star-wars.m4a" id="audio" autobuffer="autobuffer" />
+
+		<script type="text/javascript">
+		if (Modernizr.csstransforms3d) {
+			setTimeout("document.getElementById('audio').play()", 12000);
+		}
+		</script>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="js/twitter.js"></script>
+
+	</body>
+</html>
