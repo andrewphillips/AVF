@@ -21,23 +21,22 @@
                     <img src= "images/journeys_main.png" id="headerLogo"/>
                 </a>
             </section>
-            <!-- Alert-->
+            <!-- Network Connection Test-->
             <div id="section2">
                 <section>
                     <h1>
-                        Alert
+                        Network Connection Test
                     </h1>
                     <div class="content">
                     	<ul>
-	                        <li><button class="button gray bigrounded" id="alert" onclick="showAlert(); return false;">Show Alert</button></li>
-	                        <li><button class="button gray bigrounded" id="confirm" onclick="showConfirm(); return false;">Show Confirm</button></li>
+	                        <li><button class="button gray bigrounded" id="network" onclick="checkConnection();">Check my Connection!</button></li>
 	                     </ul>
                     </div>
                 </section>
                 
             </div>
             <!-- JavaScript under here -->
-            <script type="text/javascript" src="js/alert.js"></script>
+            <script type="text/javascript" src="js/network.js"></script>
             <script type="text/javascript" src="cordova-2.0.0.js"></script>
     </body>
 </html>

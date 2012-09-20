@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Camera</title>
-        <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+        <!--  Mobile viewport  -->
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
@@ -15,7 +15,7 @@
     </head>
     
     <body onload="onLoad()">
-        <div class="g1" id="section1">
+        <div class="grid1" id="section1">
             <section>
                 <a href="index.html">
                     <img src="images/journeys_main.png" id="headerLogo"/>
@@ -24,19 +24,14 @@
             <!-- Camera -->
             <section>  
                 <div class="content">
-                    <button class="button gray bigrounded"  onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button>
-                    <button class="button gray bigrounded"  onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-                    <button class="button gray bigrounded"  onclick="capturePhoto();">Capture Photo</button> <br>
-                    <button class="button gray bigrounded"  onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+                	<ul>
+		                    <li><button class="button gray bigrounded"  onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button></li>
+		                    <li><button class="button gray bigrounded"  onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button></li>
+		                    <li><button class="button gray bigrounded"  onclick="capturePhoto();">Capture Photo</button></li>
+		                    <li><button class="button gray bigrounded"  onclick="capturePhotoEdit();">Capture Editable Photo</button></li>
+                	</ul>
                 </div>
             </section>
-
-            <!-- <section>
-                <div class="content">
-                   <button class="button gray bigrounded" onclick="cleanMe();">
-                   Delete Local Photo</button>
-                </div> 
-            </section> -->
 
             <section class="content">
                 <div class="pic">

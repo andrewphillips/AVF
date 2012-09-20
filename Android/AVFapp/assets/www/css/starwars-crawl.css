@@ -2,6 +2,10 @@ body {
 	background:black url("../images/stars.png");
 }
 
+a {
+	text-decoration: none;
+}
+
 @font-face {
    font-family: 'FranklinGothicBookRegular';
    src: url("../images/fgb.ttf") format("truetype");
@@ -60,10 +64,10 @@ body {
 #crawl {
 	color:rgb(252,223,43);
 	font-family:"FranklinGothicBookRegular", sans-serif;
-	text-align:left;
+	text-align:auto;
 	font-size:126px;
 	opacity:0;
-	-webkit-animation:crawl 55s linear;
+	-webkit-animation:crawl 65s linear;
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-delay:10s;
 	-webkit-transform-style:preserve-3d;
