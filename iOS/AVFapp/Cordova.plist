@@ -6,6 +6,16 @@
 	<true/>
 	<key>TopActivityIndicator</key>
 	<string>gray</string>
+	<key>ExternalHosts</key>
+	<array>
+		<string>*.dropbox.com</string>
+		<string>*.sndcdn.com</string>
+		<string>*.github.com</string>
+		<string>*.twitter.com</string>
+		<string>*.soundcloud.com</string>
+		<string>*.googleapis.com</string>
+		<string>*.jquery.com</string>
+	</array>
 	<key>EnableLocation</key>
 	<false/>
 	<key>EnableViewportScale</key>
@@ -22,15 +32,6 @@
 	<false/>
 	<key>BackupWebStorage</key>
 	<true/>
-	<key>ExternalHosts</key>
-	<array>
-		<string>*.sndcdn.com</string>
-		<string>*.github.com</string>
-		<string>*.twitter.com</string>
-		<string>*.soundcloud.com</string>
-		<string>*.googleapis.com</string>
-		<string>*.jquery.com</string>
-	</array>
 	<key>Plugins</key>
 	<dict>
 		<key>Device</key>
