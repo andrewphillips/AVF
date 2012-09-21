@@ -24,15 +24,12 @@
 	<true/>
 	<key>ExternalHosts</key>
 	<array>
-		<string>*.soundcloud.com</string>
 		<string>*.sndcdn.com</string>
-		<string>*.twitter.com</string>
-		<string>*.amazonaws.com</string>
-		<string>*.googleapis.com</string>
-		<string>*.akamai.net</string>
-		<string>*.jquery.com</string>
 		<string>*.github.com</string>
-		<string>*.google.com</string>
+		<string>*.twitter.com</string>
+		<string>*.soundcloud.com</string>
+		<string>*.googleapis.com</string>
+		<string>*.jquery.com</string>
 	</array>
 	<key>Plugins</key>
 	<dict>
@@ -68,6 +65,8 @@
 		<string>CDVSplashScreen</string>
 		<key>Battery</key>
 		<string>CDVBattery</string>
+		<key>New item</key>
+		<string></string>
 	</dict>
 </dict>
 </plist>
